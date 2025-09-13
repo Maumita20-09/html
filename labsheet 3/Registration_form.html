@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body bgcolor="lightskyblue">
+        <center>
+            <img src="image.png"/>
+            <h1>Symposium Event Registration</h1>
+        </center>
+        <hr width="100%" size="5" align="left" color="red"/>
+        <form action="Welcome.html" method="post">
+            <fieldset><b>
+            <table border="0" align="center" height="400">
+                <tr>
+                <td> Name:</td>
+                <td><input id="name" type="text" name="name" maxlength="50"/></td>
+                </tr>
+                <tr>
+                <td>Branch</td>
+                <td><input id="Branch" type="text" name="Branch" maxlength="50"/></td>
+                </tr>
+                <tr>
+                <td>Institution</td>
+                <td><input id="Institution" type="text" name="Institution" maxlength="50"/></td>
+                </tr>
+                <tr>
+                <td>Email Address</td>
+                <td><input id="email" type="email" name="email" maxlength="50"/></td>
+                </tr>
+                <tr>
+                <td>Mobile Number</td>
+                <td><input id="phone" type="text" name="phone" maxlength="50"/></td>
+                </tr>
+                <tr>    
+                <td>Address:</td>
+                <td valign="middle" align="center"><textarea rows="4" name="address"></textarea></td>
+                </tr>
+                <tr>
+                <td>State</td>
+                <td><input id="State" type="text" name="state" maxlength="50"/></td>
+                </tr>
+                <tr>
+                <td>DOB</td>
+                <td><input id="DOB" type="date" name="DOB"/></td>
+                </tr>
+                <tr>
+                <td>Gender:</td>
+                <td><input id="gender_male" type="radio" name="gender" value="Male"/>Male</td>
+                <td><input id="gender_female" type="radio" name="gender" value="Female"/>Female</td>
+                </tr>
+                <tr>
+                <td>Event:</td>
+                <td><select name="event">
+                    <option>Paper Presentation</option>
+                    <option>Project EExpo</option>
+                    <option>Project Exhibition</option>
+                    <option>Code Debugging</option>
+                    <option>Quiz</option>
+                    </select></td>
+                </tr>
+                <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit"/>&nbsp;&nbsp;&nbsp;
+                    <input type="reset" value="Reset"/></td>
+                </tr>
+            </table>
+            </b></fieldset></form>
+        </body>
+
+    </html>

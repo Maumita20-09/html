@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <body bgcolor="#74FBFF">
+        <h1 align="center">Student Registration Form</h1>
+        <table align="center" border="0" bgcolor="#F5C3CB" width="1000" cellspacing="8" cellpadding="7">   
+        <form action="welcome2.html" method="post">
+                <tr>
+                    <td>Roll Number:</td>
+                    <td><input id="rn" type="text" name="rn" maxlength="70" ></td>
+                </tr>
+                <tr>
+                    <td>Student Name:</td>
+                    <td><input id="fn" type="text" name="name" maxlength="70" placeholder="first name">&nbsp;<input type="text" id="ln" name="name" placeholder="last name" maxlength=""70"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td><input id="date" type="date" name="date"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input id="pass" type="password" name="pass" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password</td>
+                    <td><input id="cpass" type="password" name="cpass" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" id="mail" name="mailid" placeholder="enter your emailid"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td>
+                        <input type="text" id="countrycode" name="countrycode" maxlength="4" placeholder="+91">
+                        <input type="tel" id="phone" name="phone" maxlength="15">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Department:
+                    </td>
+                    <td>
+                        <input type="checkbox" id="cse" name="dept" value="CSE"/>CSE
+                        <input type="checkbox" id="ece" name="dept" value="ECE"/>ECE
+                        <input type="checkbox" id="elec" name="dept" value="EEE"/>EEE
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="gender" value="male" id="gender">Male
+                        <input type="radio" name="gender" value="female" id="gender">Female
+                        <input type="radio" name="gender" value="other" id="gender">Other                   
+                    </tr>
+                <tr>
+                    <td>Course:</td>
+                    <td>
+                        <select id="course" name="course" placeholder="-----Select Current Course-----">
+                            <option value="btech">B.Tech</option>
+                            <option value="mtech">M.Tech</option>
+                            <option value="phd">PhD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Upload Photo:</td>
+                    <td><input type="file" id="photo" name="photo" accept="image/*"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" id="city" name="city" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><textarea rows="7" cols="50" align=center valign="middle" placeholder="Enter Address here..."></textarea></td>
+                </tr>
+                <tr>
+                    <td align="center"> <input type="submit" value="Submit"></td>
+                    <td align="center"> <input type="reset" value="Reset"></td>
+                </tr>       
+            </form>
+        </table>
+    </body>
+</html>

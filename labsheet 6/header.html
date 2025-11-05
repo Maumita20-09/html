@@ -11,6 +11,10 @@
             text-decoration:none;
             color:royalblue;
             font-size:30px;
+            padding:20;
+            transition: 0.3s;
+            background-color: lavender;
+            border-radius:30px;
         }
         a:hover{
             text-decoration:underline;
@@ -20,16 +24,23 @@
             display:inline;
             font-size:30px;
         }
+        .nav{
+            position:fixed;
+            top: 60;
+            right:100;
+            text-align: right;
+        }
       </style>
     </head>
-</html>
 <body>
+    
     <a href="home.html" target="_parent"><img src="image.png" alt="Header Image" height="200" width="250"></a>
-    <center>
-    <a href="about.html" target="main">About</a>&nbsp;<p>|</p>&nbsp;
-    <a href="products.html" target="main">Products and Services</a>&nbsp;<p>|</p>&nbsp;
-    <a href="news.html" target="main">News</a>&nbsp;<p>|</p>&nbsp;
-    <a href="contact.html" target="footer">Contact Us</a>&nbsp;<p>|</p>&nbsp;
-    <a href="login.html" target="main">Login</a>
-    </center>
+    <div class="nav">
+        <a href="about.html" target="main">About</a>&nbsp;&nbsp;
+        <a href="products.html" target="main">Products and Services</a>&nbsp;&nbsp;
+        <a href="news.html" target="main">News</a>&nbsp;&nbsp;
+        <a href="contact.html" target="footer">Contact Us</a>&nbsp;&nbsp;
+        <a href="login.html" target="main">Login</a>
+    </div>
 </body>
+</html>
